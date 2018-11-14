@@ -6,7 +6,7 @@
 
 module load anaconda/python3
 module load mpich/3.2.1
-cd $PBS_O_WORKDIR # este es el directorio desde donde se ejecuto qsub
+cd /hpcfs/home/fisi4028/yd.hernandez10 # este es el directorio desde donde se ejecuto qsub
 make clean
 make test1
 make test2
